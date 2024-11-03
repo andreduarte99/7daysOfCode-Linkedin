@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      fontFamily:{
+        'primaria': ['"Roboto"', 'sans-serif'],
+      },
       colors: {
         'primario': 'var(--texto-primario)',
         'secundario': 'var(--texto-secundario)',
