@@ -10,12 +10,47 @@
   <link href="./variaveis.css" rel="stylesheet">
 </head>
 <body class="bg-escuro">
-    <main class="font-primaria">
-        <div class="w-1560 h-468 flex flex-col">
+    <nav class="font-primaria text-primario bg-fundo-card flex justify-center items-center gap-x-40 py-1">
+        <div class="flex items-center gap-x-2">
+            <img class="w-34 h-34" src="imgs/logo-linkedin.svg" alt="ícone do linkedin">
+            <div class="flex relative">
+                <img class="absolute self-center pl-2" src="imgs/icone-busca.svg" alt="ícone de busca">
+                <input type="text" class="bg-input py-1.5 px-10 text-sm font-normal rounded-sm" placeholder="Pesquisar">
+            </div>
+        </div>
+        <div class="text-xs font-normal flex gap-x-5">
+            <div class="flex flex-col items-center">
+                <img class="" src="imgs/icone-inicio.svg" alt="ícone de início">
+                <p>Início</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="" src="imgs/icone-minha-rede.svg" alt="ícone de minha rede">
+                <p>Minha rede</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="" src="imgs/icone-vagas.svg" alt="ícone de Vagas">
+                <p>Vagas</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="" src="imgs/icone-mensagens.svg" alt="ícone de mensagens">
+                <p>Mensagens</p>
+            </div>
+            <div class="flex flex-col items-center">
+                <img class="" src="imgs/icone-notificacoes.svg" alt="ícone de notificações">
+                <p>Notificações</p>
+            </div>
+            <div class="flex flex-col items-center text-xs font-normal pl-3 border-solid border-l border-slate-400">
+                <img class="" src="imgs/icone-solucoes.svg" alt="ícone de soluções">
+                <p>Soluções</p>
+            </div>
+        </div>
+    </nav>
+    <main class="font-primaria pt-4 flex flex-col">
+        <div class="w-1560 h-468 flex flex-col items-center mx-auto pr-24 relative">
             <div class="">
                 <img class="" src="./imgs/imagem-de-capa.png" alt="foto da capa do perfil">
             </div>
-            <img class="w-160 h-160 fixed top-28 left-6" src="./imgs/foto-perfil.svg" alt="foto perfil">
+            <img class="w-160 h-160 fixed top-25 left-94 absolute" src="./imgs/foto-perfil.svg" alt="foto perfil">
             <div class="pl-9 pt-10 w-780 h-238 grid grid-rows-6 grid-cols-[2fr_auto_1fr]  gap-x-1.5 bg-fundo-card">
                 <h1 class="text-2xl font-semibold text-primario col-start-1 row-start-1 col-end-2 row-end-2">Nome Sobrenome</h1>
                 <p class="text-base font-semibold text-primario col-start-1 row-start-2 col-end-2 row-end-3">Desenvolvedora | HTML | CSS | Typescript | Node</p>
