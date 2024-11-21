@@ -6,3 +6,14 @@
     --link-primario: #70B5F9;
     --input: #38434F;
 }
+
+
+/*
+Para exibir as linhas divisórias entre as publicações da seção de “Atividades recentes”, você pode simplesmente usar:
+
+border-bottom: 1px solid #ffffff99;
+
+Para manter o alinhamento do texto justificado, o CSS tem a propriedade:
+
+text-align: justify;
+*/
