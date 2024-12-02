@@ -35,6 +35,9 @@ module.exports = {
         '94': '23rem',
         '25': '7rem',
       },
+      gridTemplateColumns:{
+        '2': 'auto 1fr'
+      }
     },
   },
   plugins: [],
