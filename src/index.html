@@ -45,199 +45,329 @@
             </div>
         </div>
     </nav>
-    <main class="font-primaria pt-4 flex flex-col">
-        <div class="w-1560 h-468 flex flex-col items-center mx-auto pr-24 relative">
-            <div class="">
-                <img class="" src="./imgs/imagem-de-capa.png" alt="foto da capa do perfil">
+    <div class="flex">
+        <main class="font-primaria pt-4 flex flex-col">
+            <div class="w-1560 h-468 flex flex-col items-center mx-auto pr-24 relative">
+                <div class="">
+                    <img class="" src="./imgs/imagem-de-capa.png" alt="foto da capa do perfil">
+                </div>
+                <img class="w-160 h-160 fixed top-25 left-94 absolute" src="./imgs/foto-perfil.svg" alt="foto perfil">
+                <div class="pl-9 pt-10 w-780 h-238 grid grid-rows-6 grid-cols-[2fr_auto_1fr]  gap-x-1.5 bg-fundo-card rounded-b-2xl">
+                    <h1 class="text-2xl font-semibold text-primario col-start-1 row-start-1 col-end-2 row-end-2">Nome Sobrenome</h1>
+                    <p class="text-base font-semibold text-primario col-start-1 row-start-2 col-end-2 row-end-3">Desenvolvedora | HTML | CSS | Typescript | Node</p>
+                    <p class="text-sm font-normal opacity-60 text-secundario col-start-1 row-start-3 col-end-2 row-end-4">Fala sobre #javascript, #frontend, #reactjs, e #backend</p>
+                    <div class="flex gap-1 col-start-1 content-center row-start-4 col-end-2 row-end-5">
+                        <p class="text-sm font-normal opacity-60 text-secundario">Cidade, estado e país</p><p class="text-secundario">.</p><p class="text-sm  font-bold text-link-primario">informações de contato</p>
+                    </div>
+                    <div class="flex gap-1 text-sm content-center font-medium text-link-primario col-start-1 row-start-5 col-end-2 row-end-6">
+                        <p>??? seguidores</p><p>.</p><p>??? conexões</p>
+                    </div>
+                    <div class="text-sm font-medium col-start-1 row-start-6 col-end-2 row-end-7">
+                        <a class="text-escuro px-6 py-2 bg-link-primario rounded-2xl">Mensagem</a>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Mais</a>
+                    </div>
+                    <img class="col-start-2 row-start-1 col-end-3 row-end-2" src="./imgs/Rectangle 5.svg" alt="imagem1">
+                    <p class="content-center text-base font-semibold text-primario col-start-3 row-start-1 col-end-4 row-end-2">Empresa</p>
+                    <img class="pt-1 col-start-2 row-start-2 col-end-3 row-end-3" src="./imgs/Rectangle 5 (1).svg" alt="imagem2">
+                    <p class="content-center text-base font-semibold text-primario col-start-3 row-start-2 col-end-4 row-end-3">Instituição de ensino</p>
+                </div>
             </div>
-            <img class="w-160 h-160 fixed top-25 left-94 absolute" src="./imgs/foto-perfil.svg" alt="foto perfil">
-            <div class="pl-9 pt-10 w-780 h-238 grid grid-rows-6 grid-cols-[2fr_auto_1fr]  gap-x-1.5 bg-fundo-card rounded-b-2xl">
-                <h1 class="text-2xl font-semibold text-primario col-start-1 row-start-1 col-end-2 row-end-2">Nome Sobrenome</h1>
-                <p class="text-base font-semibold text-primario col-start-1 row-start-2 col-end-2 row-end-3">Desenvolvedora | HTML | CSS | Typescript | Node</p>
-                <p class="text-sm font-normal opacity-60 text-secundario col-start-1 row-start-3 col-end-2 row-end-4">Fala sobre #javascript, #frontend, #reactjs, e #backend</p>
-                <div class="flex gap-1 col-start-1 content-center row-start-4 col-end-2 row-end-5">
-                    <p class="text-sm font-normal opacity-60 text-secundario">Cidade, estado e país</p><p class="text-secundario">.</p><p class="text-sm  font-bold text-link-primario">informações de contato</p>
-                </div>
-                <div class="flex gap-1 text-sm content-center font-medium text-link-primario col-start-1 row-start-5 col-end-2 row-end-6">
-                    <p>??? seguidores</p><p>.</p><p>??? conexões</p>
-                </div>
-                <div class="text-sm font-medium col-start-1 row-start-6 col-end-2 row-end-7">
-                    <a class="text-escuro px-6 py-2 bg-link-primario rounded-2xl">Mensagem</a>
-                    <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Mais</a>
-                </div>
-                <img class="col-start-2 row-start-1 col-end-3 row-end-2" src="./imgs/Rectangle 5.svg" alt="imagem1">
-                <p class="content-center text-base font-semibold text-primario col-start-3 row-start-1 col-end-4 row-end-2">Empresa</p>
-                <img class="pt-1 col-start-2 row-start-2 col-end-3 row-end-3" src="./imgs/Rectangle 5 (1).svg" alt="imagem2">
-                <p class="content-center text-base font-semibold text-primario col-start-3 row-start-2 col-end-4 row-end-3">Instituição de ensino</p>
-            </div>
-        </div>
 
-        <div class="pr-24">
-            <div class="font-primaria text-primario flex-col bg-fundo-card mx-auto p-5 rounded-2xl mt-3 w-780">
-                <div class="mb-2 ml-3">
-                    <h2 class="font-semibold text-xl">Destaques</h2>
-                </div>
-                <div class="flex gap-x-3 font-normal">
-                    <div class="flex-col border-solid border-2 border-slate-600 rounded-lg">
-                        <div class="mb-1 p-2">
-                            <h3 class="text-xs opacity-60">Publicação</h3>
-                            <p class="text-sm">Legenda da primeira publicaçã...</p>
-                        </div>
-                        <div class="mb-1">
-                            <img class="object-cover" src="./imgs/publicacao-1.svg" alt="imagem publicação 1">
-                        </div>
-                        <div class="flex justify-between mx-1 mb-1">
-                            <div class="flex">
-                                <img src="./imgs/Reações.svg" alt="ícone de reações">
-                                <p class="text-xs opacity-60">124</p>
-                            </div>
-                            <p class="text-xs opacity-60">5 comentários</p>
-                        </div>
+            <div class="pr-24">
+                <div class="font-primaria text-primario flex-col bg-fundo-card mx-auto p-5 rounded-2xl mt-3 w-780">
+                    <div class="mb-2 ml-3">
+                        <h2 class="font-semibold text-xl">Destaques</h2>
                     </div>
-                    <div class="border-solid border-2 border-slate-600 rounded-lg">
-                        <div class="mb-1 p-2">
-                            <h3 class="text-xs opacity-60">Publicação</h3>
-                            <p class="text-sm">Legenda da segunda publicaçã...</p>
-                        </div>
-                        <div class="mb-1">
-                            <img class="object-cover" src="./imgs/publicacao-2.svg" alt="imagem publicação 2">
-                        </div>
-                        <div class="flex justify-between mx-1 mb-1">
-                            <div class="flex">
-                                <img src="./imgs/Reações.svg" alt="ícone de reações">
-                                <p class="text-xs opacity-60">124</p>
+                    <div class="flex gap-x-3 font-normal">
+                        <div class="flex-col border-solid border-2 border-slate-600 rounded-lg">
+                            <div class="mb-1 p-2">
+                                <h3 class="text-xs opacity-60">Publicação</h3>
+                                <p class="text-sm">Legenda da primeira publicaçã...</p>
                             </div>
-                            <p class="text-xs opacity-60">5 comentários</p>
-                        </div>
-                    </div>
-                    <div class="border-solid border-2 border-slate-600 rounded-lg">
-                        <div class="mb-1 p-2">
-                            <h3 class="text-xs opacity-60">Publicação</h3>
-                            <p class="text-sm">Legenda da terceira publicaçã...</p>
-                        </div>
-                        <div class="mb-1">
-                            <img class="object-cover" src="./imgs/publicacao-3.svg" alt="imagem publicação 3">
-                        </div>
-                        <div class="flex justify-between mx-1 mb-1">
-                            <div class="flex">
-                                <img src="./imgs/Reações.svg" alt="ícone de reações">
-                                <p class="text-xs opacity-60">124</p>
+                            <div class="mb-1">
+                                <img class="object-cover" src="./imgs/publicacao-1.svg" alt="imagem publicação 1">
                             </div>
-                            <p class="text-xs opacity-60">5 comentários</p>
+                            <div class="flex justify-between mx-1 mb-1">
+                                <div class="flex">
+                                    <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                    <p class="text-xs opacity-60">124</p>
+                                </div>
+                                <p class="text-xs opacity-60">5 comentários</p>
+                            </div>
+                        </div>
+                        <div class="border-solid border-2 border-slate-600 rounded-lg">
+                            <div class="mb-1 p-2">
+                                <h3 class="text-xs opacity-60">Publicação</h3>
+                                <p class="text-sm">Legenda da segunda publicaçã...</p>
+                            </div>
+                            <div class="mb-1">
+                                <img class="object-cover" src="./imgs/publicacao-2.svg" alt="imagem publicação 2">
+                            </div>
+                            <div class="flex justify-between mx-1 mb-1">
+                                <div class="flex">
+                                    <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                    <p class="text-xs opacity-60">124</p>
+                                </div>
+                                <p class="text-xs opacity-60">5 comentários</p>
+                            </div>
+                        </div>
+                        <div class="border-solid border-2 border-slate-600 rounded-lg">
+                            <div class="mb-1 p-2">
+                                <h3 class="text-xs opacity-60">Publicação</h3>
+                                <p class="text-sm">Legenda da terceira publicaçã...</p>
+                            </div>
+                            <div class="mb-1">
+                                <img class="object-cover" src="./imgs/publicacao-3.svg" alt="imagem publicação 3">
+                            </div>
+                            <div class="flex justify-between mx-1 mb-1">
+                                <div class="flex">
+                                    <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                    <p class="text-xs opacity-60">124</p>
+                                </div>
+                                <p class="text-xs opacity-60">5 comentários</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <!--Atividades-->
-        <div class="pr-24">
-            <div class="bg-fundo-card  mt-3 w-780 mx-auto rounded-2xl">
-                <div class="flex flex-col p-5">
-                    <h3 class="text-primario font-semibold text-xl mb-1">Atividades</h3>
-                    <p class="text-link-primario text-sm font-medium mb-3">??? seguidores</p>
+            
+            <!--Atividades-->
+            <div class="pr-24">
+                <div class="bg-fundo-card  mt-3 w-780 mx-auto rounded-2xl">
+                    <div class="flex flex-col p-5">
+                        <h3 class="text-primario font-semibold text-xl mb-1">Atividades</h3>
+                        <p class="text-link-primario text-sm font-medium mb-3">??? seguidores</p>
 
+                        <div>
+                            <p class="text-primario text-sm font-normal opacity-60 mb-1">Nome Sobrenome publicou isso . 1 sem</p>
+                        </div>
+                        
+                        <div class="flex gap-x-3 gap-y-2">
+                            <img src="./imgs/atividades1.svg" alt="imagem atividades 1">
+                            <p class="text-primario font-normal py-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                        </div>
+                        <div class="text-primario flex justify-between">
+                            <div class="flex">
+                                <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                <p class="text-xs opacity-60">124</p>
+                            </div>
+                            <p class="text-xs opacity-60">5 comentários</p>
+                        </div>
+
+                        <div class="border-solid border-slate-400 border-t mt-2">
+                            <p class="text-primario text-sm font-normal opacity-60 mb-1 mt-3">Nome Sobrenome publicou isso . 1 sem</p>
+                        </div>
+                        
+                        <div class="flex gap-x-3 gap-y-2">
+                            <img src="./imgs/atividades2.svg" alt="imagem atividades 2">
+                            <p class="text-primario font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                        </div>
+                        <div class="text-primario flex justify-between">
+                            <div class="flex mt-1">
+                                <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                <p class="text-xs opacity-60">124</p>
+                            </div>
+                            <p class="text-xs opacity-60">5 comentários</p>  
+                        </div>
+                    </div>
+
+                    <div class="pt-2 pb-2 border-solid border-slate-400 border-t text-center">
+                        <a class="text-primario opacity-60">Exibir todas as atividades</a>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--Sobre-->
+            <div class="pr-24">
+                <div class="bg-fundo-card p-5 mt-3 w-780 mx-auto rounded-2xl">
+                    <h3 class="text-primario font-semibold text-xl mb-3">Sobre</h3>
+                    <p class="text-primario font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+            </div>
+
+            <!--Experiências-->
+
+            <div class="pr-24">
+                <div class="bg-fundo-card p-5 mt-3 w-780 mx-auto rounded-2xl">
+                    <h2 class="text-primario font-semibold text-xl mb-3">Experiências</h2>
+
+                    <div class="grid grid-cols-2 gap-2 mb-2">
+                        <img class="col-start-1 col-end-2" src="./imgs/empresa-foto.svg" alt="imagem do logo da empresa">
+                        <div class="col-sart-2 col-end-3">
+                            <h3 class="text-base font-semibold text-primario">Empresa</h3>
+                            <p class="text-primario text-sm font-normal opacity-60">1 a 7m</p>
+                        </div>
+                    </div>
+                    
+                    <ul class="flex flex-col gap-2">
+                        <li class="grid grid-cols-xp gap-2">
+                            <div class="justify-items-center self-center">
+                                <img class="w-3 h-24" src="./imgs/timeline.svg" alt="ícone de timeline">
+                            </div>
+                            <div>
+                                <h3 class="text-base font-semibold text-primario">Fullstack Developer</h3>
+                                <span class="text-primario font-normal">Tempo integral</span>
+                                <div class="flex flex-col">
+                                    <span class="text-primario text-sm font-normal opacity-60">jan de 2021 - jun de 2021 • 6 meses</span>
+                                    <span class="text-primario text-sm font-normal opacity-60">Cidade, estado e país</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid grid-cols-xp gap-2">
+                            <div class="justify-items-center self-center">
+                                <img class="w-3 h-24" src="./imgs/timeline.svg" alt="ícone de timeline">
+                            </div>
+                            <div>
+                                <h3 class="text-base font-semibold text-primario">Fullstack Developer (JR)</h3>
+                                <span class="text-primario font-normal">Tempo integral</span>
+                                <div class="flex flex-col">
+                                    <span class="text-primario text-sm font-normal opacity-60">jan de 2021 - jun de 2021 • 6 meses</span>
+                                    <span class="text-primario text-sm font-normal opacity-60">Cidade, estado e país</span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid grid-cols-xp gap-2">
+                            <div class="justify-items-center self-center">
+                                <img class="w-3 h-24" src="./imgs/timeline.svg" alt="ícone de timeline">
+                            </div>
+                            <div>
+                                <h3 class="text-base font-semibold text-primario">Front-end Developer</h3>
+                                <span class="text-primario font-normal">Tempo integral</span>
+                                <div class="flex flex-col">
+                                    <span class="text-primario text-sm font-normal opacity-60">jan de 2021 - jun de 2021 • 6 meses</span>
+                                    <span class="text-primario text-sm font-normal opacity-60">Cidade, estado e país</span>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!--Formação acadêmica-->
+            <div class="pr-24">
+                <div class="bg-fundo-card p-5 mt-3 w-780 mx-auto rounded-2xl">
+                    <h2 class="text-primario font-semibold text-xl mb-3">Formação acadêmica</h2>
+                    <div class="grid grid-cols-2 gap-2">
+                        <div class="self-center">
+                            <img src="./imgs/empresa-foto (2).svg" alt="foto representativa empresa">
+                        </div>
+                        <div>
+                            <h3 class="text-base font-semibold text-primario">Instituição de ensino</h3>
+                            <p class="text-primario font-normal">Nome do curso</p>
+                            <p class="text-primario text-sm font-normal opacity-60">2015 a 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!--Idiomas-->
+            <div class="pr-24">
+                <div class="bg-fundo-card p-5 mt-3 w-780 mx-auto rounded-2xl">
+                    <h2 class="text-primario font-semibold text-xl mb-3">Idiomas</h2>
+                    <div class="border-solid border-slate-400 border-b pb-2">
+                        <h3 class="text-base font-semibold text-primario">Português</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Fluente ou nativo</p>
+                    </div>
                     <div>
-                        <p class="text-primario text-sm font-normal opacity-60 mb-1">Nome Sobrenome publicou isso . 1 sem</p>
-                    </div>
-                    
-                    <div class="flex gap-x-3 gap-y-2">
-                        <img src="./imgs/atividades1.svg" alt="imagem atividades 1">
-                        <p class="text-primario font-normal py-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
-                    </div>
-                    <div class="text-primario flex justify-between">
-                        <div class="flex">
-                            <img src="./imgs/Reações.svg" alt="ícone de reações">
-                            <p class="text-xs opacity-60">124</p>
-                        </div>
-                        <p class="text-xs opacity-60">5 comentários</p>
-                    </div>
-
-                    <div class="border-solid border-slate-400 border-t mt-2">
-                        <p class="text-primario text-sm font-normal opacity-60 mb-1 mt-3">Nome Sobrenome publicou isso . 1 sem</p>
-                    </div>
-                    
-                    <div class="flex gap-x-3 gap-y-2">
-                        <img src="./imgs/atividades2.svg" alt="imagem atividades 2">
-                        <p class="text-primario font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
-                    </div>
-                    <div class="text-primario flex justify-between">
-                        <div class="flex mt-1">
-                            <img src="./imgs/Reações.svg" alt="ícone de reações">
-                            <p class="text-xs opacity-60">124</p>
-                        </div>
-                        <p class="text-xs opacity-60">5 comentários</p>  
+                        <h3 class="text-base font-semibold text-primario mt-3">Inglês</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Intermediário</p>
                     </div>
                 </div>
-
-                <div class="pt-2 pb-2 border-solid border-slate-400 border-t text-center">
-                    <a class="text-primario opacity-60">Exibir todas as atividades</a>
-                </div>
-
             </div>
-        </div>
+        </main>
 
-        <!--Sobre-->
-        <div class="pr-24">
-            <div class="bg-fundo-card p-5 mt-3 w-780 mx-auto rounded-2xl">
-                <h3 class="text-primario font-semibold text-xl mb-3">Sobre</h3>
-                <p class="text-primario font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-        </div>
-
-        <!--Experiências-->
-
-        <div class="pr-24">
-            <div class="bg-fundo-card p-5 mt-3 w-780 mx-auto rounded-2xl">
-                <h2 class="text-primario font-semibold text-xl mb-3">Experiências</h2>
-
-                <div class="grid grid-cols-2 gap-2">
-                    <img class="col-start-1 col-end-2" src="./imgs/empresa-foto.svg" alt="imagem do logo da empresa">
-                    <div class="col-sart-2 col-end-3">
-                        <h3 class="text-base font-semibold text-primario">Empresa</h3>
-                        <p class="text-primario text-sm font-normal opacity-60">1 a 7m</p>
+        <!--aside lateral-->
+        <aside>
+            <!--As pessoas também viram-->
+            <div class="bg-fundo-card p-5 mx-auto rounded-2xl">
+                <h2 class="text-primario font-semibold text-xl mb-3">As pessoas também viram</h2>
+                <div>
+                    <img src="./imgs/perfil-oito.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Enviar mensagem</a>
                     </div>
                 </div>
-                
-                <ul>
-                    <li class="grid grid-cols-2">
-                        <div>
-                            <img src="./imgs/timeline.svg" alt="ícone de timeline">
-                        </div>
-                        <div>
-                            <h3 class="text-base font-semibold text-primario">Fullstack Developer</h3>
-                            <span class="text-primario font-normal">Tempo integral</span>
-                            <span class="text-primario text-sm font-normal opacity-60">jan de 2022 - o momento • 5 meses</span>
-                            <span class="text-primario text-sm font-normal opacity-60">Cidade, estado e país</span>
-                        </div>
-                    </li>
-                    <li class="grid grid-cols-2">
-                        <div>
-                            <img src="./imgs/timeline.svg" alt="ícone de timeline">
-                        </div>
-                        <div>
-                            <h3 class="text-base font-semibold text-primario">Fullstack Developer (JR)</h3>
-                            <span class="text-primario font-normal">Tempo integral</span>
-                            <span class="text-primario text-sm font-normal opacity-60">jun de 2021 - jan de 2022 • 8 meses</span>
-                            <span class="text-primario text-sm font-normal opacity-60">Cidade, estado e país</span>
-                        </div>
-                    </li>
-                    <li class="grid grid-cols-2">
-                        <div>
-                            <img src="./imgs/timeline.svg" alt="ícone de timeline">
-                        </div>
-                        <div>
-                            <h3 class="text-base font-semibold text-primario">Front-end Developer</h3>
-                            <span class="text-primario font-normal">Tempo integral</span>
-                            <span class="text-primario text-sm font-normal opacity-60">jan de 2021 - jun de 2021 • 6 meses</span>
-                            <span class="text-primario text-sm font-normal opacity-60">Cidade, estado e país</span>
-                        </div>
-                    </li>
-                </ul>
+                <div>
+                    <img src="./imgs/perfil-um.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Enviar mensagem</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/perfil-seis.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Enviar mensagem</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/perfil-cinco.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Enviar mensagem</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/perfil-quatro.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Enviar mensagem</a>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        
-    </main>
+            <!--Pessoas que talvez você conheça-->
+            <div class="bg-fundo-card p-5 mx-auto rounded-2xl">
+                <h2 class="text-primario font-semibold text-xl mb-3">Pessoas que talvez você conheça</h2>
+                <div>
+                    <img src="./imgs/perfil-tres.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Conectar</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/perfil-dois.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Conectar</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/perfil-cinco.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Conectar</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/perfil-seis.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Conectar</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="./imgs/perfil-um.svg" alt="foto-perfil">
+                    <div>
+                        <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
+                        <p class="text-primario text-sm font-normal opacity-60">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
+                        <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Conectar</a>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </div>    
 </body>
 </html>

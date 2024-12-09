@@ -36,7 +36,8 @@ module.exports = {
         '25': '7rem',
       },
       gridTemplateColumns:{
-        '2': 'auto 1fr'
+        '2': 'auto 1fr',
+        'xp': '48px 1fr'
       }
     },
   },
