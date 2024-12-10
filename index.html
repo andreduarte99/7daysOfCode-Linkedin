@@ -6,41 +6,41 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-  <link href="./output.css" rel="stylesheet">
-  <link href="./variaveis.css" rel="stylesheet">
+  <link href="./src/output.css" rel="stylesheet">
+  <link href="./src/variaveis.css" rel="stylesheet">
 </head>
 <body class="bg-escuro">
     <nav class="font-primaria text-primario bg-fundo-card flex justify-center items-center gap-x-40 py-1">
         <div class="flex items-center gap-x-2">
-            <img class="w-34 h-34" src="imgs/logo-linkedin.svg" alt="ícone do linkedin">
+            <img class="w-34 h-34" src="./src/imgs/logo-linkedin.svg" alt="ícone do linkedin">
             <div class="flex relative">
-                <img class="absolute self-center pl-2" src="imgs/icone-busca.svg" alt="ícone de busca">
+                <img class="absolute self-center pl-2" src="./src/imgs/icone-busca.svg" alt="ícone de busca">
                 <input type="text" class="bg-input py-1.5 px-10 text-sm font-normal rounded-sm" placeholder="Pesquisar">
             </div>
         </div>
         <div class="text-xs font-normal flex gap-x-5">
             <div class="flex flex-col items-center">
-                <img class="" src="imgs/icone-inicio.svg" alt="ícone de início">
+                <img class="" src="./src/imgs/icone-inicio.svg" alt="ícone de início">
                 <p>Início</p>
             </div>
             <div class="flex flex-col items-center">
-                <img class="" src="imgs/icone-minha-rede.svg" alt="ícone de minha rede">
+                <img class="" src="./src/imgs/icone-minha-rede.svg" alt="ícone de minha rede">
                 <p>Minha rede</p>
             </div>
             <div class="flex flex-col items-center">
-                <img class="" src="imgs/icone-vagas.svg" alt="ícone de Vagas">
+                <img class="" src="./src/imgs/icone-vagas.svg" alt="ícone de Vagas">
                 <p>Vagas</p>
             </div>
             <div class="flex flex-col items-center">
-                <img class="" src="imgs/icone-mensagens.svg" alt="ícone de mensagens">
+                <img class="" src="./src/imgs/icone-mensagens.svg" alt="ícone de mensagens">
                 <p>Mensagens</p>
             </div>
             <div class="flex flex-col items-center">
-                <img class="" src="imgs/icone-notificacoes.svg" alt="ícone de notificações">
+                <img class="" src="./src/imgs/icone-notificacoes.svg" alt="ícone de notificações">
                 <p>Notificações</p>
             </div>
             <div class="flex flex-col items-center text-xs font-normal pl-3 border-solid border-l border-slate-400">
-                <img class="" src="imgs/icone-solucoes.svg" alt="ícone de soluções">
+                <img class="" src="./src/imgs/icone-solucoes.svg" alt="ícone de soluções">
                 <p>Soluções</p>
             </div>
         </div>
@@ -49,9 +49,9 @@
         <main class="font-primaria pt-4 flex flex-col ml-96 mr-4">
             <div class=" flex flex-col items-center mx-auto relative">
                 <div class="">
-                    <img class="" src="./imgs/imagem-de-capa.png" alt="foto da capa do perfil">
+                    <img class="" src="./src/imgs/imagem-de-capa.png" alt="foto da capa do perfil">
                 </div>
-                <img class="w-160 h-160 fixed top-25 left-8 absolute" src="./imgs/foto-perfil.svg" alt="foto perfil">
+                <img class="w-160 h-160 fixed top-25 left-8 absolute" src="./src/imgs/foto-perfil.svg" alt="foto perfil">
                 <div class="pl-9 pt-10 w-780 h-238 grid grid-rows-6 grid-cols-[2fr_auto_1fr]  gap-x-1.5 bg-fundo-card rounded-b-2xl">
                     <h1 class="text-2xl font-semibold text-primario col-start-1 row-start-1 col-end-2 row-end-2">Nome Sobrenome</h1>
                     <p class="text-base font-semibold text-primario col-start-1 row-start-2 col-end-2 row-end-3">Desenvolvedora | HTML | CSS | Typescript | Node</p>
@@ -66,9 +66,9 @@
                         <a class="text-escuro px-6 py-2 bg-link-primario rounded-2xl">Mensagem</a>
                         <a class="text-link-primario px-10 py-1.5 rounded-2xl border border-[#70B5F9]">Mais</a>
                     </div>
-                    <img class="col-start-2 row-start-1 col-end-3 row-end-2" src="./imgs/Rectangle 5.svg" alt="imagem1">
+                    <img class="col-start-2 row-start-1 col-end-3 row-end-2" src="./src/imgs/Rectangle 5.svg" alt="imagem1">
                     <p class="content-center text-base font-semibold text-primario col-start-3 row-start-1 col-end-4 row-end-2">Empresa</p>
-                    <img class="pt-1 col-start-2 row-start-2 col-end-3 row-end-3" src="./imgs/Rectangle 5 (1).svg" alt="imagem2">
+                    <img class="pt-1 col-start-2 row-start-2 col-end-3 row-end-3" src="./src/imgs/Rectangle 5 (1).svg" alt="imagem2">
                     <p class="content-center text-base font-semibold text-primario col-start-3 row-start-2 col-end-4 row-end-3">Instituição de ensino</p>
                 </div>
             </div>
@@ -85,11 +85,11 @@
                                 <p class="text-sm">Legenda da primeira publicaçã...</p>
                             </div>
                             <div class="mb-1">
-                                <img class="object-cover" src="./imgs/publicacao-1.svg" alt="imagem publicação 1">
+                                <img class="object-cover" src="./src/imgs/publicacao-1.svg" alt="imagem publicação 1">
                             </div>
                             <div class="flex justify-between mx-1 mb-1">
                                 <div class="flex">
-                                    <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                    <img src="./src/imgs/Reações.svg" alt="ícone de reações">
                                     <p class="text-xs opacity-60">124</p>
                                 </div>
                                 <p class="text-xs opacity-60">5 comentários</p>
@@ -101,11 +101,11 @@
                                 <p class="text-sm">Legenda da segunda publicaçã...</p>
                             </div>
                             <div class="mb-1">
-                                <img class="object-cover" src="./imgs/publicacao-2.svg" alt="imagem publicação 2">
+                                <img class="object-cover" src="./src/imgs/publicacao-2.svg" alt="imagem publicação 2">
                             </div>
                             <div class="flex justify-between mx-1 mb-1">
                                 <div class="flex">
-                                    <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                    <img src="./src/imgs/Reações.svg" alt="ícone de reações">
                                     <p class="text-xs opacity-60">124</p>
                                 </div>
                                 <p class="text-xs opacity-60">5 comentários</p>
@@ -117,11 +117,11 @@
                                 <p class="text-sm">Legenda da terceira publicaçã...</p>
                             </div>
                             <div class="mb-1">
-                                <img class="object-cover" src="./imgs/publicacao-3.svg" alt="imagem publicação 3">
+                                <img class="object-cover" src="./src/imgs/publicacao-3.svg" alt="imagem publicação 3">
                             </div>
                             <div class="flex justify-between mx-1 mb-1">
                                 <div class="flex">
-                                    <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                    <img src="./src/imgs/Reações.svg" alt="ícone de reações">
                                     <p class="text-xs opacity-60">124</p>
                                 </div>
                                 <p class="text-xs opacity-60">5 comentários</p>
@@ -143,12 +143,12 @@
                         </div>
                         
                         <div class="flex gap-x-3 gap-y-2">
-                            <img src="./imgs/atividades1.svg" alt="imagem atividades 1">
+                            <img src="./src/imgs/atividades1.svg" alt="imagem atividades 1">
                             <p class="text-primario font-normal py-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
                         </div>
                         <div class="text-primario flex justify-between">
                             <div class="flex">
-                                <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                <img src="./src/imgs/Reações.svg" alt="ícone de reações">
                                 <p class="text-xs opacity-60">124</p>
                             </div>
                             <p class="text-xs opacity-60">5 comentários</p>
@@ -159,12 +159,12 @@
                         </div>
                         
                         <div class="flex gap-x-3 gap-y-2">
-                            <img src="./imgs/atividades2.svg" alt="imagem atividades 2">
+                            <img src="./src/imgs/atividades2.svg" alt="imagem atividades 2">
                             <p class="text-primario font-normal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
                         </div>
                         <div class="text-primario flex justify-between">
                             <div class="flex mt-1">
-                                <img src="./imgs/Reações.svg" alt="ícone de reações">
+                                <img src="./src/imgs/Reações.svg" alt="ícone de reações">
                                 <p class="text-xs opacity-60">124</p>
                             </div>
                             <p class="text-xs opacity-60">5 comentários</p>  
@@ -193,7 +193,7 @@
                     <h2 class="text-primario font-semibold text-xl mb-3">Experiências</h2>
 
                     <div class="grid grid-cols-2 gap-2 mb-2">
-                        <img class="col-start-1 col-end-2" src="./imgs/empresa-foto.svg" alt="imagem do logo da empresa">
+                        <img class="col-start-1 col-end-2" src="./src/imgs/empresa-foto.svg" alt="imagem do logo da empresa">
                         <div class="col-sart-2 col-end-3">
                             <h3 class="text-base font-semibold text-primario">Empresa</h3>
                             <p class="text-primario text-sm font-normal opacity-60">1 a 7m</p>
@@ -203,7 +203,7 @@
                     <ul class="flex flex-col gap-2">
                         <li class="grid grid-cols-xp gap-2">
                             <div class="justify-items-center self-center">
-                                <img class="w-3 h-24" src="./imgs/timeline.svg" alt="ícone de timeline">
+                                <img class="w-3 h-24" src="./src/imgs/timeline.svg" alt="ícone de timeline">
                             </div>
                             <div>
                                 <h3 class="text-base font-semibold text-primario">Fullstack Developer</h3>
@@ -216,7 +216,7 @@
                         </li>
                         <li class="grid grid-cols-xp gap-2">
                             <div class="justify-items-center self-center">
-                                <img class="w-3 h-24" src="./imgs/timeline.svg" alt="ícone de timeline">
+                                <img class="w-3 h-24" src="./src/imgs/timeline.svg" alt="ícone de timeline">
                             </div>
                             <div>
                                 <h3 class="text-base font-semibold text-primario">Fullstack Developer (JR)</h3>
@@ -229,7 +229,7 @@
                         </li>
                         <li class="grid grid-cols-xp gap-2">
                             <div class="justify-items-center self-center">
-                                <img class="w-3 h-24" src="./imgs/timeline.svg" alt="ícone de timeline">
+                                <img class="w-3 h-24" src="./src/imgs/timeline.svg" alt="ícone de timeline">
                             </div>
                             <div>
                                 <h3 class="text-base font-semibold text-primario">Front-end Developer</h3>
@@ -250,7 +250,7 @@
                     <h2 class="text-primario font-semibold text-xl mb-3">Formação acadêmica</h2>
                     <div class="grid grid-cols-2 gap-2">
                         <div class="self-center">
-                            <img src="./imgs/empresa-foto (2).svg" alt="foto representativa empresa">
+                            <img src="./src/imgs/empresa-foto (2).svg" alt="foto representativa empresa">
                         </div>
                         <div>
                             <h3 class="text-base font-semibold text-primario">Instituição de ensino</h3>
@@ -283,7 +283,7 @@
             <div class="bg-fundo-card p-5 mx-auto rounded-2xl flex flex-col gap-5 w-9/12">
                 <h2 class="text-primario font-semibold text-xl mb-3">As pessoas também viram</h2>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-oito.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-oito.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -291,7 +291,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-um.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-um.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -299,7 +299,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-seis.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-seis.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -307,7 +307,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-cinco.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-cinco.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -315,7 +315,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-quatro.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-quatro.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -327,7 +327,7 @@
             <div class="bg-fundo-card p-5 mx-auto rounded-2xl flex flex-col gap-5 w-9/12">
                 <h2 class="text-primario font-semibold text-xl mb-3">Pessoas que talvez você conheça</h2>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-tres.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-tres.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -335,7 +335,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-dois.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-dois.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -343,7 +343,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-cinco.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-cinco.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -351,7 +351,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-seis.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-seis.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
@@ -359,7 +359,7 @@
                     </div>
                 </div>
                 <div class="flex gap-2">
-                    <img class="self-start mt-2" src="./imgs/perfil-um.svg" alt="foto-perfil">
+                    <img class="self-start mt-2" src="./src/imgs/perfil-um.svg" alt="foto-perfil">
                     <div>
                         <h3 class="text-base font-semibold text-primario">Nome e sobrenome</h3>
                         <p class="text-primario text-sm font-normal opacity-60 mb-2">Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet</p>
